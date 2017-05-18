@@ -9,7 +9,10 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Finger+Paint" rel="stylesheet">
-
+        
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="/images/feudalJapan.png" />
+        
         <!-- Styles -->
         <style>
             html, body {
@@ -53,7 +56,7 @@
             .links > a {
                 color: #000000;
                 padding: 0 25px;
-                font-size: 25px;
+                font-size: 40px;
                 font-weight: 600;
                 letter-spacing: .1rem;
                 text-decoration: none;
@@ -70,12 +73,11 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    <h2>Feudal Japan</h2>
+                    <h1>Feudal Japan</h1>
                     <img src="/images/feudalJapan.png"/>
                 </div>
 
                 <div class="links">
-                    <a href="{{ url('/https://www.roblox.com/My/Groups.aspx?gid=2819070') }}">ROBLOX FJ Group</a>
                     <a href="{{ url('/login') }}">Login</a>
                     <a href="{{ url('/register') }}">Register</a>
                 </div>
