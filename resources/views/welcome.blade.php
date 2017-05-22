@@ -8,14 +8,22 @@
         <title>Laravel</title>
 
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-
+        <link href="https://fonts.googleapis.com/css?family=Finger+Paint" rel="stylesheet">
+        
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="/images/feudalJapan.png" />
+        
         <!-- Styles -->
         <style>
             html, body {
+                background: url(images/IntroScreenBG3.png) no-repeat center center fixed; 
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
                 background-color: #fff;
-                color: #636b6f;
-                font-family: 'Raleway', sans-serif;
+                color: #000000;
+                font-family: 'Finger Paint', cursive;
                 font-weight: 100;
                 height: 100vh;
                 margin: 0;
@@ -26,6 +34,7 @@
             }
 
             .flex-center {
+                margin-top: -5%;
                 align-items: center;
                 display: flex;
                 justify-content: center;
@@ -50,9 +59,9 @@
             }
 
             .links > a {
-                color: #636b6f;
+                color: #000000;
                 padding: 0 25px;
-                font-size: 12px;
+                font-size: 40px;
                 font-weight: 600;
                 letter-spacing: .1rem;
                 text-decoration: none;
@@ -64,30 +73,23 @@
             }
         </style>
     </head>
+    
     <body>
+        <audio autoplay>
+            <source src="/music/IntroBGMusic.ogg" type="audio/ogg">
+            <source src="/music/IntroBGMusic.mp3" type="audio/mpeg">
+        </audio>
         <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @if (Auth::check())
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ url('/login') }}">Login</a>
-                        <a href="{{ url('/register') }}">Register</a>
-                    @endif
-                </div>
-            @endif
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    <h1>Feudal Japan</h1>
+                    <img src="/images/feudalJapan.png"/>
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="{{ url('/login') }}">Login</a>
+                    <a href="{{ url('/register') }}">Register</a>
                 </div>
             </div>
         </div>
