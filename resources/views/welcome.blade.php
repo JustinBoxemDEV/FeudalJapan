@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Gekokujo: Feudal Japan</title>
+        <title>Gekokujō: Feudal Japan</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Finger+Paint" rel="stylesheet">
@@ -55,7 +55,7 @@
             }
 
             .title {
-                font-size: 84px;
+                font-size: 75px;
             }
 
             .links > a {
@@ -83,8 +83,8 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    <h1>Gekokujo: Feudal Japan</h1>
-                    <img src="/images/feudalJapan.png"/>
+                    <h1>Gekokujō: Feudal Japan</h1>
+                    <img src="/images/feudalJapan.png" height="400px" width="500px"/>
                 </div>
 
                 <div class="links">
