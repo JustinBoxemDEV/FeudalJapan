@@ -75,7 +75,7 @@
     </head>
     
     <body>
-        <audio autoplay>
+        <audio autoplay loop>
             <source src="/music/IntroBGMusic.ogg" type="audio/ogg">
             <source src="/music/IntroBGMusic.mp3" type="audio/mpeg">
         </audio>
