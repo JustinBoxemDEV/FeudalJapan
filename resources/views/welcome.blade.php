@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Gekokujo: Feudal Japan</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Finger+Paint" rel="stylesheet">
@@ -83,7 +83,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    <h1>Feudal Japan</h1>
+                    <h1>Gekokujo: Feudal Japan</h1>
                     <img src="/images/feudalJapan.png"/>
                 </div>
 
