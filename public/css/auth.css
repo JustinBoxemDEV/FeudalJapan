@@ -1,0 +1,19 @@
+body{
+    font-family: 'Finger Paint', cursive;
+    width: 100%;
+    height: 100%;
+    color: #0078d7;
+    background: url(/images/AuthBG.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.row{
+    margin-top: 15%;
+}
+
+.panel-default{
+    background-color: transparent;
+}
